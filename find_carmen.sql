@@ -64,5 +64,6 @@ SELECT * FROM city WHERE population > 91000 ORDER BY population ASC;
 
 
 -- We're counting on you, gumshoe. Find out where she's headed, send us the info, and we'll be sure to meet her at the gates with bells on.
-
+UPDATE CITY SET name = 'Brasilia' WHERE id ='211';
+SELECT * FROM city WHERE id = 211;
 
